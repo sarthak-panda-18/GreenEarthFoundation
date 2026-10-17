@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Earth Foundation | Environmental Conservation & Restoration</title>
+  <meta name="description"
+    content="Green Earth Foundation is a non-profit environmental NGO dedicated to reforestation, ocean cleanup drives, and community eco-workshops. Join our mission today.">
+  <meta name="theme-color" content="#2d6a4f">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%232d6a4f'><path d='M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========================================================================
+       NAVIGATION BAR
+       ======================================================================== -->
+  <header class="header" id="header">
+    <div class="container navbar">
+      <!-- Logo -->
+      <a href="#home" class="logo" aria-label="Green Earth Foundation Home">
+        <div class="logo-icon">
+          <!-- Leaf Icon -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Green Earth</span>
+          <span class="logo-subtitle">Foundation</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Nav Links -->
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#services" class="nav-link">Our Services</a></li>
+        <li><a href="#impact" class="nav-link">Impact Stats</a></li>
+        <li><a href="#events" class="nav-link">Past Events</a></li>
+        <li><a href="#donate" class="nav-link">Donate</a></li>
+        <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#join" class="btn btn-secondary btn-sm" data-open-modal="join">Join Us</a></li>
+      </ul>
+
+      <!-- Action Buttons & Hamburger -->
+      <div class="nav-actions">
+        <a href="#donate" class="btn btn-primary btn-donate-nav" aria-label="Go to donation section">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+            </path>
+          </svg>
+          Donate
+        </a>
+
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ======================================================================
+         HOME / HERO SECTION (FULL-WIDTH NATURE BG + SOFT DARK OVERLAY)
+         ====================================================================== -->
+    <section class="hero-section" id="home">
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Empowering Communities • Healing Our Planet</span>
+        </div>
+
+        <h1 class="hero-title">
+          Together, We Can <br>
+          <span class="text-gradient">Heal Our Planet</span>
+        </h1>
+
+        <p class="hero-description">
+          Join Green Earth Foundation in restoring degraded ecosystems, revitalizing fragile coastlines, and empowering communities through hands-on environmental action.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#donate" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z">
+              </path>
+            </svg>
+            Donate
+          </a>
+          <button class="btn btn-secondary btn-lg" data-open-modal="join">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+              <circle cx="9" cy="7" r="4"></circle>
+              <line x1="19" y1="8" x2="19" y2="14"></line>
+              <line x1="22" y1="11" x2="16" y2="11"></line>
+            </svg>
+            Join Us
+          </button>
+        </div>
+
+        <div class="hero-trust">
+          <div class="trust-avatars">
+            <img src="images/sarah.jpg" alt="Volunteer Sarah">
+            <img src="images/michael.jpg" alt="Volunteer Michael">
+            <img src="images/priya.jpg" alt="Volunteer Priya">
+          </div>
+          <div class="trust-text">
+            <strong>14,800+ Volunteers</strong> actively regenerating 14 global regions.
+          </div>
+        </div>
+
+        <div class="hero-highlights-strip">
+          <div class="hero-highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M12 22v-7l-4-4"></path>
+              <path d="M12 15l4-4"></path>
+              <path d="M12 2a5 5 0 0 0-5 5c0 4 5 8 5 8s5-4 5-8a5 5 0 0 0-5-5Z"></path>
+            </svg>
+            <span>125,000+ Native Trees Planted</span>
+          </div>
+          <div class="hero-highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="12" cy="8" r="7"></circle>
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+            </svg>
+            <span>100% Non-Profit Financial Transparency</span>
+          </div>
+          <div class="hero-highlight-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+              <path d="M2 12h20"></path>
+            </svg>
+            <span>14 Active Global Chapters</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         ABOUT US SECTION
+         ====================================================================== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left: Image & Story Badge -->
+          <div class="about-media-col">
+            <div class="about-image-wrapper">
+              <img src="images/about.jpg" alt="Smiling volunteers of Green Earth Foundation holding fresh saplings"
+                loading="lazy">
+              <div class="about-experience-badge">
+                <div class="badge-number">8+</div>
+                <div class="badge-label">Years of<br>Grassroots Action</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Narrative, Mission & Vision -->
+          <div class="about-content-col">
+            <span class="section-tag">About Our Foundation</span>
+            <h2 class="section-title">Rooted in Care, <span>Driven by Community</span></h2>
+
+            <!-- How We Started -->
+            <div class="story-card">
+              <h3 class="story-title">How We Started</h3>
+              <p class="story-text">
+                In the spring of 2018, our founder and a handful of local residents gathered to clean an abandoned,
+                deforested creek bed in our hometown. Shocked by the rapid decline of urban greenery, we planted 200
+                native saplings in a single weekend. What started as a modest neighborhood effort quickly sparked a
+                movement. Today, Green Earth Foundation connects thousands of environmental advocates across continents
+                to protect wild biodiversity and build climate resilience.
+              </p>
+            </div>
+
+            <!-- Mission & Vision Cards -->
+            <div class="mv-grid">
+              <div class="mv-card">
+                <div class="mv-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <h4>Our Mission</h4>
+                <p>To rehabilitate degraded natural landscapes, foster ecological balance, and equip people everywhere
+                  with the tools to champion conservation in their backyards.</p>
+              </div>
+
+              <div class="mv-card">
+                <div class="mv-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="2"></circle>
+                    <path d="M12 2v2"></path>
+                    <path d="M12 20v2"></path>
+                    <path d="m4.93 4.93 1.41 1.41"></path>
+                    <path d="m17.66 17.66 1.41 1.41"></path>
+                    <path d="M2 12h2"></path>
+                    <path d="M20 12h2"></path>
+                    <path d="m6.34 17.66-1.41 1.41"></path>
+                    <path d="m19.07 4.93-1.41 1.41"></path>
+                  </svg>
+                </div>
+                <h4>Our Vision</h4>
+                <p>A flourishing world where living canopies thrive, plastic-free waters flow naturally, and communities
+                  act in harmonious stewardship with mother nature.</p>
+              </div>
+            </div>
+
+            <!-- Value Badges -->
+            <div class="values-list">
+              <span class="value-pill">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Native Species Biodiversity
+              </span>
+              <span class="value-pill">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                100% Financial Transparency
+              </span>
+              <span class="value-pill">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Grassroots Empowerment
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         OUR SERVICES SECTION
+         ====================================================================== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What We Do</span>
+          <h2 class="section-title">Our Environmental <span>Services</span></h2>
+          <p class="section-desc">From mountain ridges to sandy shorelines and inner-city classrooms, we implement
+            comprehensive green solutions designed for lasting ecological impact.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Tree Planting -->
+          <article class="service-card">
+            <div class="service-img-wrapper">
+              <img src="images/tree_planting.jpg" alt="Tree planting initiative in an open community park"
+                loading="lazy">
+              <span class="service-badge">Reforestation</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-badge" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22v-7l-4-4"></path>
+                  <path d="M12 15l4-4"></path>
+                  <path d="M12 2a5 5 0 0 0-5 5c0 4 5 8 5 8s5-4 5-8a5 5 0 0 0-5-5Z"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Tree Planting & Forestry</h3>
+              <p class="service-desc">
+                We plant indigenous, drought-resilient tree species in deforested areas, watershed borders, and urban
+                heat islands. Every grove is scientifically cataloged and tended until maturity.
+              </p>
+              <ul class="service-features">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  92%+ Sapling 3-Year Survival Rate
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Native Pollinator & Wildlife Habitats
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Urban Green Canopy Expansion
+                </li>
+              </ul>
+              <button class="btn btn-secondary service-btn" data-open-modal="donate">Sponsor a Tree</button>
+            </div>
+          </article>
+
+          <!-- Service 2: Clean-Up Drives -->
+          <article class="service-card">
+            <div class="service-img-wrapper">
+              <img src="images/cleanup.jpg" alt="Shoreline and beach cleanup volunteers collecting recyclable debris"
+                loading="lazy">
+              <span class="service-badge">Waste Reduction</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-badge" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 6h20"></path>
+                  <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path>
+                  <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path>
+                  <line x1="10" y1="11" x2="10" y2="17"></line>
+                  <line x1="14" y1="11" x2="14" y2="17"></line>
+                </svg>
+              </div>
+              <h3 class="service-title">Clean-Up Drives</h3>
+              <p class="service-desc">
+                We organize grassroots clean-up expeditions across coastlines, river basins, and public parks. Collected
+                plastic, toxic micro-waste, and scrap materials are responsibly sorted for recycling.
+              </p>
+              <ul class="service-features">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Zero-Waste Sorting & Circular Recycling
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  River Mouth & Coastal Debris Barriers
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Safety Gear & Eco Burlap Kits Provided
+                </li>
+              </ul>
+              <button class="btn btn-secondary service-btn" data-open-modal="join">Join a Clean-up</button>
+            </div>
+          </article>
+
+          <!-- Service 3: Awareness Workshops -->
+          <article class="service-card">
+            <div class="service-img-wrapper">
+              <img src="images/workshop.jpg" alt="Educational environmental workshop in an indoor sunlit eco center"
+                loading="lazy">
+              <span class="service-badge">Eco Education</span>
+            </div>
+            <div class="service-body">
+              <div class="service-icon-badge" aria-hidden="true">
+                <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Awareness Workshops</h3>
+              <p class="service-desc">
+                Education breeds conservation. We conduct interactive youth masterclasses, school assemblies, and
+                corporate green seminars teaching composting, zero-waste living, and native biodiversity preservation.
+              </p>
+              <ul class="service-features">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  K-12 Curriculum & Student Seedling Labs
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Home Composting & Rainwater Harvesting
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Corporate Sustainability Certifications
+                </li>
+              </ul>
+              <button class="btn btn-secondary service-btn" data-open-modal="join">Request Workshop</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         IMPACT STATS SECTION
+         ====================================================================== -->
+    <section class="impact-section" id="impact">
+      <div class="container">
+        <div class="impact-header">
+          <span class="section-tag">Our Measurable Progress</span>
+          <h2 class="section-title">Tangible Impact for a Living Planet</h2>
+          <p class="section-desc">Every donation and volunteer hour creates direct, verifiable results. Here is what we
+            have collectively achieved with your support.</p>
+        </div>
+
+        <div class="stats-grid">
+          <!-- Stat 1 -->
+          <div class="stat-card">
+            <div class="stat-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22v-7l-4-4"></path>
+                <path d="M12 15l4-4"></path>
+                <path d="M12 2a5 5 0 0 0-5 5c0 4 5 8 5 8s5-4 5-8a5 5 0 0 0-5-5Z"></path>
+              </svg>
+            </div>
+            <div class="stat-number" data-target="125000" data-suffix="+">0</div>
+            <div class="stat-label">Trees Planted</div>
+            <div class="stat-sublabel">Native species permanently rooted</div>
+          </div>
+
+          <!-- Stat 2 -->
+          <div class="stat-card">
+            <div class="stat-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="stat-number" data-target="14800" data-suffix="+">0</div>
+            <div class="stat-label">Active Volunteers</div>
+            <div class="stat-sublabel">Mobilized across 14 chapters</div>
+          </div>
+
+          <!-- Stat 3 -->
+          <div class="stat-card">
+            <div class="stat-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+            </div>
+            <div class="stat-number" data-target="450" data-suffix="+">0</div>
+            <div class="stat-label">Events Conducted</div>
+            <div class="stat-sublabel">Cleanups, seedings & workshops</div>
+          </div>
+
+          <!-- Stat 4 -->
+          <div class="stat-card">
+            <div class="stat-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <div class="stat-number" data-target="85" data-suffix="+">0</div>
+            <div class="stat-label">Coastlines & Sites Restored</div>
+            <div class="stat-sublabel">Natural flora & fauna returning</div>
+          </div>
+        </div>
+
+        <div class="impact-banner">
+          <div class="banner-content">
+            <h4>Ready to help us reach our next milestone?</h4>
+            <p>Our goal for this year is 150,000 trees. Your ₹500 contribution directly plants 5 native saplings.</p>
+          </div>
+          <a href="#donate" class="btn btn-primary">Contribute Today</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         GALLERY SECTION: OUR PAST EVENTS
+         ====================================================================== -->
+    <section class="gallery-section" id="events">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Photo Showcase</span>
+          <h2 class="section-title">Our Past <span>Events</span></h2>
+          <p class="section-desc">Glimpses of our dedicated volunteers, students, and local communities making an enduring, positive impact on our ecosystems.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- 1. Tree Planting: Reforestation -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/tree_planting.jpg" alt="Volunteers planting native saplings during tree plantation drive" loading="lazy">
+              <span class="gallery-tag">Tree Planting</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Native Reforestation Day</h4>
+              <p>5,000 native saplings rooted in our community watershed sanctuary.</p>
+            </div>
+          </div>
+
+          <!-- 2. Clean-Up: Coastal Beach Sweep -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/cleanup.jpg" alt="Coastal ocean cleanup volunteers collecting shoreline debris" loading="lazy">
+              <span class="gallery-tag">Clean-Up Drive</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Pacific Beach Clean-Up</h4>
+              <p>Volunteers cleared 2.4 tons of beach waste and harmful marine plastics.</p>
+            </div>
+          </div>
+
+          <!-- 3. Awareness: Eco Center Masterclass -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/workshop.jpg" alt="Eco center students learning sustainable seedling potting" loading="lazy">
+              <span class="gallery-tag">Workshop</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Eco-Center Literacy Class</h4>
+              <p>Empowering young minds with hands-on potting and zero-waste solutions.</p>
+            </div>
+          </div>
+
+          <!-- 4. Tree Planting: Schoolyard Initiative -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/event_school.jpg" alt="School students and teachers creating a green school garden" loading="lazy">
+              <span class="gallery-tag">Tree Planting</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Schoolyard Green Canopy</h4>
+              <p>Students learning active ecological stewardship through school gardens.</p>
+            </div>
+          </div>
+
+          <!-- 5. Clean-Up: Riverbank Sweep -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/event_river.jpg" alt="Volunteers cleaning riverbank plastic waste and debris" loading="lazy">
+              <span class="gallery-tag">Clean-Up Drive</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Riverbank Watershed Sweep</h4>
+              <p>Community teams clearing riverbank plastics to restore clean freshwater habitats.</p>
+            </div>
+          </div>
+
+          <!-- 6. Restoration: Coastal Mangrove Planting -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/event_mangrove.jpg" alt="Volunteers planting young mangrove saplings in coastal wetlands" loading="lazy">
+              <span class="gallery-tag">Coastal Restoration</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Mangrove Wetland Drive</h4>
+              <p>Planting native mangrove saplings to safeguard shorelines from erosion.</p>
+            </div>
+          </div>
+
+          <!-- 7. Awareness: Composting & Soil Regeneration -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/event_compost.jpg" alt="Community members holding rich dark compost in hands" loading="lazy">
+              <span class="gallery-tag">Workshop</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Zero-Waste Composting</h4>
+              <p>Teaching local families natural soil regeneration and organic composting.</p>
+            </div>
+          </div>
+
+          <!-- 8. Community: Annual Volunteer Gathering -->
+          <div class="gallery-card">
+            <div class="gallery-img-wrapper">
+              <img src="images/about.jpg" alt="Smiling volunteers holding saplings together" loading="lazy">
+              <span class="gallery-tag">Community Action</span>
+            </div>
+            <div class="gallery-caption">
+              <h4>Annual Volunteer Rally</h4>
+              <p>Uniting over 500 passionate eco-champions to celebrate our shared mission.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         DONATION SECTION (₹500, ₹1000, ₹2500 & CUSTOM)
+         ====================================================================== -->
+    <section class="donation-section" id="donate">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Support Our Cause</span>
+          <h2 class="section-title">Support Our <span>Conservation Work</span></h2>
+          <p class="section-desc">Your financial support enables us to procure native saplings, fund coastal cleanups, and educate the next generation of climate stewards.</p>
+        </div>
+
+        <!-- Frequency Toggle: One-Time and Monthly are identical in options -->
+        <div class="donation-tabs-wrapper">
+          <div class="donation-tabs" role="tablist" aria-label="Donation Frequency">
+            <button type="button" class="donation-tab-btn active" id="tab-onetime" data-freq="onetime">One-Time Donation</button>
+            <button type="button" class="donation-tab-btn" id="tab-monthly" data-freq="monthly">Monthly Sustainer</button>
+          </div>
+        </div>
+
+        <div class="donation-section-grid">
+          <!-- Option 1: ₹500 -->
+          <div class="section-donation-card">
+            <div class="donation-card-icon">🌱</div>
+            <div class="donation-price">₹500</div>
+            <div class="donation-freq-label" data-freq-text>One-Time Contribution</div>
+            <div class="donation-impact-line">
+              <strong>Plants 5 native saplings</strong> and provides organic soil nutrients for healthy growth.
+            </div>
+            <button type="button" class="btn btn-secondary btn-donate-tier" data-amount="500">Donate Now</button>
+          </div>
+
+          <!-- Option 2: ₹1,000 (Popular) -->
+          <div class="section-donation-card popular">
+            <span class="popular-badge">Most Popular</span>
+            <div class="donation-card-icon">🌳</div>
+            <div class="donation-price">₹1,000</div>
+            <div class="donation-freq-label" data-freq-text>One-Time Contribution</div>
+            <div class="donation-impact-line">
+              <strong>Plants 10 trees</strong> and provides protective sapling tree guards and nursery incubation.
+            </div>
+            <button type="button" class="btn btn-primary btn-donate-tier" data-amount="1000">Donate Now</button>
+          </div>
+
+          <!-- Option 3: ₹2,500 -->
+          <div class="section-donation-card">
+            <div class="donation-card-icon">🌊</div>
+            <div class="donation-price">₹2,500</div>
+            <div class="donation-freq-label" data-freq-text>One-Time Contribution</div>
+            <div class="donation-impact-line">
+              <strong>Restores 50m of degraded riverbank</strong> and equips volunteer cleanup teams with eco sacks.
+            </div>
+            <button type="button" class="btn btn-secondary btn-donate-tier" data-amount="2500">Donate Now</button>
+          </div>
+        </div>
+
+        <!-- Custom Amount Option -->
+        <div class="custom-donation-panel">
+          <h4>Prefer a Custom Amount?</h4>
+          <p>Whether you choose to give ₹250 or ₹25,000, every contribution directly funds ecological restoration.</p>
+          <form id="custom-donation-form" class="custom-donation-form-row">
+            <div class="custom-input-group">
+              <span class="custom-currency-symbol">₹</span>
+              <input type="number" id="section-custom-amount" class="custom-amount-input" placeholder="Enter amount" min="50" step="50" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg">Donate Custom Amount</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======================================================================
+         TESTIMONIALS SECTION
+         ====================================================================== -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Voices of Green Earth</span>
+          <h2 class="section-title">What Our <span>Volunteers Say</span></h2>
+          <p class="section-desc">Our strength comes from everyday heroes who take action. Hear firsthand how
+            volunteering has impacted our communities and our volunteers' lives.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Review 1: Sarah Jenkins -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 stars rating">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              “Volunteering with Green Earth Foundation opened my eyes to the incredible power of collective local
+              action. Seeing 5,000 native saplings take root across our degraded hills in a single weekend was
+              unforgettable. The warmth, safety, and passion of the team make every project pure joy.”
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/sarah.jpg" alt="Sarah Jenkins" class="author-avatar">
+              <div class="author-info">
+                <h4>Sarah Jenkins</h4>
+                <p>Volunteer Coordinator</p>
+                <span class="verified-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Verified Volunteer • 3 Years
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 2: Michael Chen -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 stars rating">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              “The environmental workshops in our local secondary schools inspired hundreds of young students to start
+              composting and planting gardens. Green Earth doesn't just discuss climate issues from afar; they empower
+              youth with hands-on tools and genuine hope for the future.”
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/michael.jpg" alt="Michael Chen" class="author-avatar">
+              <div class="author-info">
+                <h4>Michael Chen</h4>
+                <p>Youth Eco-Ambassador</p>
+                <span class="verified-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Verified Volunteer • 2 Years
+                </span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Review 3: Priya Sharma -->
+          <article class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 stars rating">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              “From our very first beach cleanup with 30 neighbors to clearing over 12 metric tons of ocean plastic this
+              year, Green Earth Foundation provides unwavering equipment, scientific tracking, and warmth. Being on the
+              coast seeing dolphins return to clean waters is priceless.”
+            </blockquote>
+            <div class="testimonial-author">
+              <img src="images/priya.jpg" alt="Priya Sharma" class="author-avatar">
+              <div class="author-info">
+                <h4>Priya Sharma</h4>
+                <p>Coastal Cleanup Lead</p>
+                <span class="verified-badge">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  Verified Volunteer • 4 Years
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================================================================
+         CONTACT SECTION
+         ====================================================================== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let’s Connect for a <span>Greener Tomorrow</span></h2>
+          <p class="section-desc">Have a question about our conservation programs, want to sponsor a drive, or organize
+            a school workshop? We’d love to hear from you!</p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details Card -->
+          <div class="contact-info-card">
+            <div class="contact-info-header">
+              <h3>Contact Information</h3>
+              <p>Reach out directly or visit our community eco-center. Our dedicated conservation specialists will
+                gladly assist you.</p>
+
+              <div class="contact-items">
+                <!-- Address -->
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <h5>Headquarters</h5>
+                    <p>142 Green Haven Boulevard<br>Eco Valley, CA 94103, USA</p>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <h5>Email Us</h5>
+                    <p><a href="mailto:contact@greenearthfoundation.org">contact@greenearthfoundation.org</a></p>
+                  </div>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-item">
+                  <div class="contact-icon" aria-hidden="true">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                      </path>
+                    </svg>
+                  </div>
+                  <div class="contact-details">
+                    <h5>Call Us</h5>
+                    <p><a href="tel:+18004733632">+1 (800) 473-3632</a> (Mon-Fri 9am-6pm PST)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-links-wrapper">
+              <h5>Follow Our Conservation Movement</h5>
+              <div class="social-links">
+                <!-- Twitter / X -->
+                <a href="#" class="social-btn" aria-label="Follow us on Twitter">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                    </path>
+                  </svg>
+                </a>
+                <!-- Instagram -->
+                <a href="#" class="social-btn" aria-label="Follow us on Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                  </svg>
+                </a>
+                <!-- Facebook -->
+                <a href="#" class="social-btn" aria-label="Follow us on Facebook">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                </a>
+                <!-- LinkedIn -->
+                <a href="#" class="social-btn" aria-label="Connect with us on LinkedIn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </a>
+                <!-- YouTube -->
+                <a href="#" class="social-btn" aria-label="Watch our drives on YouTube">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path
+                      d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                    </path>
+                    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Interactive Contact Form -->
+          <div class="contact-form-card">
+            <h3>Send Us a Message</h3>
+            <p>Fill out the form below and we will get back to you promptly.</p>
+
+            <form id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name" class="form-label">Your Full Name <span>*</span></label>
+                  <input type="text" id="contact-name" class="form-input" placeholder="e.g. Jessica Taylor" required>
+                </div>
+                <div class="form-group">
+                  <label for="contact-email" class="form-label">Email Address <span>*</span></label>
+                  <input type="email" id="contact-email" class="form-input" placeholder="e.g. jessica@example.com"
+                    required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject" class="form-label">Inquiry Topic</label>
+                <select id="contact-subject" class="form-select">
+                  <option value="general">General Inquiry</option>
+                  <option value="volunteer">Volunteering Opportunities</option>
+                  <option value="tree-planting">Tree Planting Sponsorship</option>
+                  <option value="cleanup">Organizing a Clean-Up Drive</option>
+                  <option value="workshop">Booking an Environmental Workshop</option>
+                  <option value="corporate">Corporate CSR Partnership</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Your Message <span>*</span></label>
+                <textarea id="contact-message" class="form-textarea"
+                  placeholder="How would you like to get involved or what can we help you with?" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================
+       FOOTER
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Col 1: Brand & Bio -->
+        <div class="footer-brand">
+          <a href="#home" class="logo" aria-label="Green Earth Foundation Home">
+            <div class="logo-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"></path>
+                <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"></path>
+              </svg>
+            </div>
+            <div class="logo-text">
+              <span class="logo-title">Green Earth</span>
+              <span class="logo-subtitle">Foundation</span>
+            </div>
+          </a>
+          <p>
+            A dedicated non-profit organization focused on hands-on environmental conservation, native reforestation,
+            and creating sustainable ecosystems for generations to come.
+          </p>
+          <div class="footer-badges">
+            <span
+              style="display:inline-block; font-size: 0.8rem; background: rgba(255,255,255,0.08); padding: 4px 12px; border-radius: 999px; color: var(--primary-light);">
+              501(c)(3) Registered Non-Profit
+            </span>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div class="footer-nav">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Our Story</a></li>
+            <li><a href="#services">Our Initiatives</a></li>
+            <li><a href="#impact">Impact Statistics</a></li>
+            <li><a href="#testimonials">Volunteer Stories</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Programs & Services -->
+        <div class="footer-programs">
+          <h4 class="footer-heading">Our Programs</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Tree Planting Drives</a></li>
+            <li><a href="#services">Coastline Cleanups</a></li>
+            <li><a href="#services">Youth Eco Workshops</a></li>
+            <li><a href="#impact">Reforestation Audit</a></li>
+            <li><a href="#join" data-open-modal="join">Volunteer Hub</a></li>
+            <li><a href="#donate" data-open-modal="donate">Corporate Giving</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Newsletter -->
+        <div class="newsletter-box">
+          <h4 class="footer-heading">Conservation Newsletter</h4>
+          <p>Subscribe for our monthly updates on tree planting projects, upcoming cleanup dates, and climate action
+            tips.</p>
+          <form class="newsletter-form" id="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Enter your email" required
+              aria-label="Email address for newsletter">
+            <button type="submit" class="btn btn-primary btn-sm" aria-label="Subscribe to newsletter">Join</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Green Earth Foundation. All rights reserved. Dedicated to our living planet.</p>
+        <div class="footer-legal-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="#contact">Transparency Report</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL: DONATE NOW
+       ======================================================================== -->
+  <div class="modal-overlay" id="modal-donate" aria-hidden="true" role="dialog" aria-labelledby="donate-modal-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="donate-modal-title">Support Our Earth 🌱</h3>
+        <button class="modal-close-btn" aria-label="Close donation modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="donation-frequency">
+          <button type="button" class="freq-tab active" data-freq="onetime">One-Time Gift</button>
+          <button type="button" class="freq-tab" data-freq="monthly">Monthly Sustainer</button>
+        </div>
+
+        <p style="font-size: 0.9rem; color: var(--slate-600); margin-bottom: 16px;">Select an amount or enter your custom gift:</p>
+
+        <div class="donation-tiers">
+          <div class="tier-btn" data-val="500">
+            <span class="tier-amount">₹500</span>
+            <span class="tier-impact">Plants 5 Trees</span>
+          </div>
+          <div class="tier-btn selected" data-val="1000">
+            <span class="tier-amount">₹1,000</span>
+            <span class="tier-impact">Plants 10 Trees + Guard</span>
+          </div>
+          <div class="tier-btn" data-val="2500">
+            <span class="tier-amount">₹2,500</span>
+            <span class="tier-impact">Restores 50m Riverbank</span>
+          </div>
+        </div>
+
+        <form id="donation-form">
+          <div class="form-group">
+            <label for="custom-donation-amount" class="form-label">Custom Amount (₹ INR)</label>
+            <input type="number" id="custom-donation-amount" class="form-input" placeholder="e.g. 1500" min="50" step="50">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="donor-name" class="form-label">Full Name</label>
+              <input type="text" id="donor-name" class="form-input" placeholder="Alex Morgan" required>
+            </div>
+            <div class="form-group">
+              <label for="donor-email" class="form-label">Email Receipt</label>
+              <input type="email" id="donor-email" class="form-input" placeholder="alex@example.com" required>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 8px;">
+            Complete Donation
+          </button>
+          <p style="text-align: center; font-size: 0.78rem; color: var(--slate-500); margin-top: 12px;">
+            🔒 256-Bit SSL Encrypted • Tax Deductible 501(c)(3)
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: JOIN US / VOLUNTEER
+       ======================================================================== -->
+  <div class="modal-overlay" id="modal-join" aria-hidden="true" role="dialog" aria-labelledby="join-modal-title">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="join-modal-title">Join Our Movement 🤝</h3>
+        <button class="modal-close-btn" aria-label="Close volunteer modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.95rem; color: var(--slate-600); margin-bottom: 20px;">
+          Become a registered Green Earth volunteer. We will match you with upcoming reforestation drives, beach sweeps,
+          and community workshops near you.
+        </p>
+
+        <form id="volunteer-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="vol-name" class="form-label">Full Name <span>*</span></label>
+              <input type="text" id="vol-name" class="form-input" placeholder="e.g. Jordan Reed" required>
+            </div>
+            <div class="form-group">
+              <label for="vol-email" class="form-label">Email <span>*</span></label>
+              <input type="email" id="vol-email" class="form-input" placeholder="e.g. jordan@example.com" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="vol-role" class="form-label">Primary Interest</label>
+              <select id="vol-role" class="form-select">
+                <option value="tree-planting">Tree Planting & Nurseries</option>
+                <option value="cleanup">Shoreline & River Cleanups</option>
+                <option value="workshop">Workshops & Youth Education</option>
+                <option value="logistics">Event Logistics & Photography</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="vol-city" class="form-label">Your City / Region</label>
+              <input type="text" id="vol-city" class="form-input" placeholder="e.g. Seattle, WA">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="vol-availability" class="form-label">Availability</label>
+            <select id="vol-availability" class="form-select">
+              <option value="weekends">Weekends Only</option>
+              <option value="weekdays">Weekdays (Flexible)</option>
+              <option value="monthly">Once a Month</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%; margin-top: 8px;">
+            Submit Volunteer Application
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" aria-label="Scroll back to top">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+      stroke-linecap="round" stroke-linejoin="round">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
